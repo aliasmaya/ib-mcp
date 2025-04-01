@@ -2,7 +2,7 @@
 
 ## Overview
 
-The `ib-mcp` project is a Model Context Protocol (MCP) server built using FastMCP that interfaces with the Interactive Brokers (IB) Trader Workstation (TWS) API via the `ib_insync` library. It provides a set of RESTful-like tools to interact with IB TWS for tasks such as connecting/disconnecting, retrieving account and market data, qualifying contracts, and placing orders. The server is designed to be used with MCP-compatible clients (e.g., Claude Desktop) and supports configuration via environment variables stored in a `.env` file.
+The `ib-mcp` project is a Model Context Protocol (MCP) server built using FastMCP that interfaces with the Interactive Brokers (IB) Trader Workstation (TWS) API via the `ib_insync` library. It provides a set of RESTful-like tools to interact with IB TWS for tasks such as connecting/disconnecting, retrieving account and market data, qualifying contracts, and placing orders.
 
 This project aims to simplify the integration of IB TWS API functionality into applications that require trading, market data retrieval, and account management through a standardized MCP interface.
 
